@@ -1,0 +1,19 @@
+{
+  "name": "dscart",
+  "version": "1.0.0",
+  "description": "A very custom ecommerce framework for shopping cart websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deziners-studio/dscart.git"
+  },
+  "author": "Deziners Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deziners-studio/dscart/issues"
+  },
+  "homepage": "https://github.com/deziners-studio/dscart#readme"
+}
