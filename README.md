@@ -1,2 +1,3 @@
 # dscart
-A very custom ecommerce framework for shopping cart websites.
+
+A custom framework for shopping cart websites.
