@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,700,700i');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    background-color: #efefef;
+    padding-top: 50px;
+}
+
+label, input {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #1bc191;
+    border-color: #198666;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #06946b;
+}
