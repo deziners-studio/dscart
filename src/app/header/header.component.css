@@ -1,0 +1,21 @@
+.navbar-brand{
+    padding-top: 8px;
+}
+
+.collapsible-icon {
+    padding-top: 14px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    margin-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+}
+
+.navbar-default .navbar-nav>li>a> i {
+    font-size: 20px;
+}
