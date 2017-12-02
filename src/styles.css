@@ -28,3 +28,9 @@ label, input {
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #06946b;
 }
+
+.content-container {
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}

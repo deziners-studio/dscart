@@ -1,4 +1,5 @@
 .sidebar-menu {
+    float: left;
     width: 210px;
     height: 100%;
     font-size: 16px;
