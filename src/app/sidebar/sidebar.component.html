@@ -1,10 +1,16 @@
 <!-- SIDEBAR MENU SECTION -->
 <div class="sidebar-menu">
   <ul class="nav nav-pills nav-stacked">
-    <li routerLinkActive="active"><a routerLink="/dashboard"><i class="glyphicon glyphicon-th-large"></i>Dashboard</a></li>
-    <li routerLinkActive="active"><a routerLink="/products"><i class="glyphicon glyphicon-shopping-cart"></i>Products</a></li>
-    <li routerLinkActive="active"><a routerLink="/settings"><i class="glyphicon glyphicon-cog"></i>Settings</a></li>
-    
+    <li routerLinkActive="active"><a routerLink="/dashboard"><i class="glyphicon glyphicon-th-large"></i><span class="menu-text">Dashboard</span></a></li>
+    <li routerLinkActive="active">
+      <a routerLink="/products"><i class="glyphicon glyphicon-shopping-cart"></i><span class="menu-text">Products</span></a>
+      <ul class="sub-menu">
+        <li><a href="#">Products List</a></li>
+        <li><a href="#">Add Products</a></li>
+        <li><a href="#">Manage Products</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active"><a routerLink="/settings"><i class="glyphicon glyphicon-cog"></i><span class="menu-text">Settings</span></a></li>
   </ul>
 </div>
 
