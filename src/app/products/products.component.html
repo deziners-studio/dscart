@@ -1,3 +1,50 @@
-<p>
-products works!
-</p>
+<section class="view-header">
+    <header class="view-heading">
+        <h2 class="view-title">Products</h2>
+        <small class="view-breadcrumb"><a routerLink="/dashboard">Dashboard</a> / Products</small>
+    </header>
+</section>
+
+<article class="container-fluid view-container">
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <!-- TABLE SECTION -->
+            <section class="panel panel-default panel-basic">
+                <!-- <header class="panel-heading">
+                    <h4 class="panel-title">About to Out of Stock</h4>
+                </header> -->
+                <!-- <summary class="panel-body"> -->
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Code</th>
+                                <th class="text-center">Title</th>
+                                <th class="text-center">Brand</th>
+                                <th class="text-center">Category</th>
+                                <th class="text-center">Gallery</th>
+                                <th class="text-center">Price</th>
+                                <th class="text-center">GST Rate</th>
+                                <th class="text-center">Last Updated</th>
+                                <th class="text-center">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of products">
+                                <td class="text-center">{{item.product_code}}</td>
+                                <td class="text-center">{{item.product_title}}</td>
+                                <td class="text-center">{{item.brand_title}}</td>
+                                <td class="text-center">{{item.category_title}}</td>
+                                <td class="text-center">{{item.image_gallery_title}}</td>
+                                <td class="text-center">{{item.product_price}}</td>
+                                <td class="text-center">{{item.gst_title}}</td>
+                                <td class="text-center">{{item.last_modified | date: 'MMM dd, yyyy hh:mm a'}}</td>
+                                <td class="text-center">{{item.product_status}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <!-- </summary> -->
+            </section>
+            <!-- END OF TABLE SECTION -->
+        </div>
+    </div>
+</article>

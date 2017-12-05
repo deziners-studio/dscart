@@ -1,0 +1,65 @@
+.view-header {
+    padding: 15px;
+}
+
+.view-heading {
+    overflow: hidden;
+}
+
+.view-title {
+    font-size: 2.2rem;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.view-breadcrumb {
+    font-size: 1.5rem;
+}
+
+.stickers {
+    -webkit-transition: border .3s ease-in-out;
+    -moz-transition: border .3s ease-in-out;
+    -o-transition: border .3s ease-in-out;
+    -ms-transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out;
+}
+
+.stickers:hover {
+    border-color: #1bc191;
+}
+
+.stickers > .panel-heading {
+    background: none;
+    border: none;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.stickers .panel-title {
+    padding-top: 5px;
+}
+
+.stickers .panel-title > .glyphicon {
+    margin-right: 5px;
+}
+
+.panel-title-count {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.panel-basic > .panel-heading {
+    background: none;
+    /* border: none; */
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+/* .panel-basic > .table {
+    border-top: 1px solid #ddd;
+} */
+
+.icon-btn {
+    background: none;
+    border: none;
+}

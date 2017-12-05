@@ -9,6 +9,7 @@ import { Products } from '../__interfaces/products';
 export class ProductsService {
 
   private _productsURL = 'http://localhost:3000/api/products/';
+  // private _productsURL = 'http://23.88.2.168:3000/api/products/';
 
   constructor(private http: Http) { }
 

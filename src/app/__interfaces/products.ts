@@ -17,4 +17,15 @@ export interface Products {
     date_added: Date;
     last_modified: Date;
     product_status: number;
+    brand_id: number;
+    brand_title: string;
+    image_gallery_id: number;
+    image_gallery_title: string;
+    tag_id: number;
+    tag_title: string;
+    tag_count: number;
+    category_id: number;
+    category_title: string;
+    gst_id: number;
+    gst_title: string;
 }
