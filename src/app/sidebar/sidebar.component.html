@@ -1,13 +1,61 @@
 <!-- SIDEBAR MENU SECTION -->
 <div class="sidebar-menu">
   <ul class="nav nav-pills nav-stacked">
-    <li routerLinkActive="active"><a routerLink="/dashboard"><i class="glyphicon glyphicon-th-large"></i><span class="menu-text">Dashboard</span></a></li>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="/dashboard"><i class="glyphicon glyphicon-th-large"></i><span class="menu-text">Dashboard</span></a></li>
     <li routerLinkActive="active">
-      <a routerLink="/products"><i class="glyphicon glyphicon-shopping-cart"></i><span class="menu-text">Products</span></a>
+      <a routerLink="/dashboard/products"><i class="glyphicon glyphicon-shopping-cart"></i><span class="menu-text">Products</span></a>
       <ul class="sub-menu">
-        <li><a href="#">Products List</a></li>
-        <li><a href="#">Add Products</a></li>
+        <li><a routerLink="/dashboard/products">Products List</a></li>
+        <li><a routerLink="/dashboard/products/add">Add Product</a></li>
         <li><a href="#">Manage Products</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/dashboard/categories"><i class="glyphicon glyphicon-th"></i><span class="menu-text">Categories</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/dashboard/categories">Categories List</a></li>
+        <li><a routerLink="/dashboard/categories/add">Add Categpry</a></li>
+        <li><a href="#">Manage Categories</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/brands"><i class="glyphicon glyphicon-paperclip"></i><span class="menu-text">Brands</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/brands">Brands List</a></li>
+        <li><a href="#">Add Brand</a></li>
+        <li><a href="#">Manage Brands</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/tags"><i class="glyphicon glyphicon-tags"></i><span class="menu-text">Tags</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/tags">Tags List</a></li>
+        <li><a href="#">Add Tags</a></li>
+        <li><a href="#">Manage Tags</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/medias"><i class="glyphicon glyphicon-camera"></i><span class="menu-text">Medias</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/medias">Medias List</a></li>
+        <li><a href="#">Add Medias</a></li>
+        <li><a href="#">Manage Medias</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/galleries"><i class="glyphicon glyphicon-picture"></i><span class="menu-text">Galleries</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/categories">Galleries List</a></li>
+        <li><a href="#">Add Gallery</a></li>
+        <li><a href="#">Manage Galleries</a></li>
+      </ul>
+    </li>
+    <li routerLinkActive="active">
+      <a routerLink="/taxes"><i class="glyphicon glyphicon-barcode"></i><span class="menu-text">Taxes</span></a>
+      <ul class="sub-menu">
+        <li><a routerLink="/taxes">Taxes List</a></li>
+        <li><a href="#">Add Tax</a></li>
+        <li><a routerLink="/gst">Add GST</a></li>
       </ul>
     </li>
     <li routerLinkActive="active"><a routerLink="/settings"><i class="glyphicon glyphicon-cog"></i><span class="menu-text">Settings</span></a></li>

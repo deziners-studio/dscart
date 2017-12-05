@@ -14,6 +14,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SidebarMenuService } from './sidebar-menu.service';
 import { ApiService } from './api.service';
 import { ProductsService } from './__services/products.service';
+import { AddProductsComponent } from './add-products/add-products.component';
+import { ListProductsComponent } from './list-products/list-products.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { AddCategoriesComponent } from './add-categories/add-categories.component';
+import { DashboardViewComponent } from './dashboard-view/dashboard-view.component';
 
 
 @NgModule({
@@ -23,7 +28,12 @@ import { ProductsService } from './__services/products.service';
     LoginComponent,
     DashboardComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    AddProductsComponent,
+    ListProductsComponent,
+    CategoriesComponent,
+    AddCategoriesComponent,
+    DashboardViewComponent
   ],
   imports: [
     BrowserModule,
